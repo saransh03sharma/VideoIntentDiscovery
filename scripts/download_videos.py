@@ -71,10 +71,14 @@ def download_videos_for_intent_dataset(data_dir, out_dir, n_processes=3):
         dataset = json.load(open(f, 'r'))
         for sample in dataset:
             video_id = sample["video_id"]
+            if not video_id.endswith('.mp4'):
+                video_id += '.mp4'
             assert video_id.endswith('.mp4'), video_id
             timestamp = float(sample["timestamp"])
             # print(video_id)
             tmp_name = os.path.join(out_dir, video_id.replace("/", "__"))
+            if not tmp_name.endswith('.mp4'):
+                tmp_name += '.mp4'
             assert tmp_name.endswith('.mp4'), tmp_name
             target_names = [tmp_name[:-4] + ".%s.cut.%s.mp4" % (int(timestamp), t) for t in [10, 20]]
             if all([os.path.exists(fname) for fname in target_names]):
@@ -109,4 +113,4 @@ def download_videos_for_intent_dataset(data_dir, out_dir, n_processes=3):
 #     "http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/8efc8a51-0329-4272-abc7-b12630d7dbd1/output.mp4",
 #     10, 20)
 
-download_videos_for_intent_dataset('../../data/behance_dataset/', '../../data/behance_videos', n_processes=8)
+download_videos_for_intent_dataset('../data/bid/', '../data/bid/video', n_processes=8)

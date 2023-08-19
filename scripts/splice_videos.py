@@ -34,9 +34,9 @@ def get_video_slices(video_ids, video2timestamps, video2tmp, out_dir):
 
 def splice_videos_for_intent_dataset(out_dir, n_processes=3):
 
-    files = ['./data/intent/both/train.json',
-             './data/intent/both/dev.json',
-             './data/intent/both/test.json']
+    files = ['../data/bid/train.json',
+             '../data/bid/dev.json',
+             '../data/bid/test.json']
 
     video2tmp = {}
     samples_by_video = defaultdict(lambda: [])
@@ -94,4 +94,4 @@ def splice_videos_for_intent_dataset(out_dir, n_processes=3):
 #     10, 20)
 
 # download_videos_for_intent_dataset('../../data/behance_dataset/', '../../data/behance_videos', n_processes=8)
-splice_videos_for_intent_dataset('/nas-hdd/tarbucket/adyasha/datasets/behance', n_processes=4)
+splice_videos_for_intent_dataset('../data/bid/video/', n_processes=4)

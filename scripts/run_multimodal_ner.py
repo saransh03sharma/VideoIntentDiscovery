@@ -1,18 +1,5 @@
 # coding=utf-8
-# Copyright 2018 The Google AI Language Team Authors and The HuggingFace Inc. team.
-# Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+
 
 import argparse
 import glob
@@ -776,7 +763,9 @@ def main():
                 for item in data:
                     timestamp = float(item["timestamp"])
                     target_name = os.path.join(args.feature_dir, item["video_id"].replace("/", "__")[:-4] + ".%s.cut.mp4" % int(timestamp) + suffix)
+                    
                     if os.path.exists(target_name):
+                        print(target_name)
                         prediction_dict[example_id] = {"str_words": item["str_words"],
                                                       "tags": item["tags"],
                                                       "session_id": item["session_id"],
