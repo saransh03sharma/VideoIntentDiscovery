@@ -129,17 +129,22 @@ def read_examples_from_file(args, mode):
             prefix = item["video_id"].replace("/", "__")
             if prefix.endswith('.mp4'):
                 prefix = prefix[:-4]
-            video_feat_file = os.path.join(args.feature_dir, prefix + ".%s.cut" % int(timestamp) + suffix)
-            if os.path.exists(video_feat_file):
-                examples.append(
-                    InputExample(guid="%s-%d".format(mode, guid_index),
-                                 words=words,
-                                 labels=labels,
-                                 hp_labels=hp_labels,
-                                 video_feature_file=video_feat_file))
-            else:
-                continue
-            guid_index += 1
+            # video_feat_file = os.path.join(args.feature_dir, prefix + ".%s.cut" % int(timestamp) + suffix)
+            for t in [10, 20]:
+                video_feat_file = os.path.join(args.feature_dir, prefix + ".%s.cut.%s" % (int(timestamp), t) + suffix)
+                print(video_feat_file)
+                if os.path.exists(video_feat_file):
+                    print(video_feat_file)
+                    examples.append(
+                        InputExample(guid="%s-%d".format(mode, guid_index),
+                                    words=words,
+                                    labels=labels,
+                                    hp_labels=hp_labels,
+                                    video_feature_file=video_feat_file))
+                
+                else:
+                    continue
+                guid_index += 1
 
     print("Read %s examples from file" % guid_index)
 

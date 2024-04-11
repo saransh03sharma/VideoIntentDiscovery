@@ -20,7 +20,7 @@ def get_slices(vid_file, timestamps, out_dir):
                 ffmpeg_extract_subclip(vid_file, start_time, end_time, targetname=out_file)
 
     except Exception as e:
-        print(e)
+        #print(e)
         with open('error_log.txt', 'a+') as f:
             f.write(vid_file + '\n')
             traceback.print_exc(file=f)

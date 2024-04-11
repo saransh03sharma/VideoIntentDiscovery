@@ -1,0 +1,1 @@
+bash behance_late_fusion.sh slowfast ./data/bid/video/ 0

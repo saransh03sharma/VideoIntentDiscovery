@@ -38,6 +38,9 @@ from transformers import (
     get_linear_schedule_with_warmup,
 )
 
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(root_path)
+
 from model.multimodal_bond.modeling_roberta import RobertaForTokenClassification_v2, RobertaForTokenClassificationLateFusion
 from model.multimodal_bond.data_utils import load_and_cache_examples, get_labels
 from model.multimodal_bond.model_utils import multi_source_label_refine, soft_frequency, mt_update, get_mt_loss, opt_grad
@@ -764,8 +767,9 @@ def main():
                     timestamp = float(item["timestamp"])
                     target_name = os.path.join(args.feature_dir, item["video_id"].replace("/", "__")[:-4] + ".%s.cut.mp4" % int(timestamp) + suffix)
                     
+                    print(target_name)
                     if os.path.exists(target_name):
-                        print(target_name)
+                        
                         prediction_dict[example_id] = {"str_words": item["str_words"],
                                                       "tags": item["tags"],
                                                       "session_id": item["session_id"],

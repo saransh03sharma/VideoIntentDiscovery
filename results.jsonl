@@ -1,0 +1,72 @@
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_loss": "0.8646880388259888"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_loss": "0.8646880388259888"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_CREATIVE_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_CREATIVE_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_TOOL_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_TOOL_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_loss": "0.872299313545227"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_5e-5/_CREATIVE_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_5e-5/_CREATIVE_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_5e-5/_TOOL_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_5e-5/_TOOL_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_5e-5/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_5e-5/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_5e-5/_loss": "1.050563097000122"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_5e-5/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-5/_CREATIVE_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-5/_CREATIVE_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-5/_TOOL_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-5/_TOOL_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-5/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-5/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-5/_loss": "1.0587761402130127"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-5/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-5/_CREATIVE_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-5/_CREATIVE_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-5/_TOOL_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-5/_TOOL_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-5/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-5/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-5/_loss": "1.098357081413269"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-5/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-4/_CREATIVE_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-4/_CREATIVE_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-4/_TOOL_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-4/_TOOL_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-4/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-4/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-4/_loss": "0.6916024088859558"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_1e-4/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-4/_CREATIVE_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-4/_CREATIVE_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-4/_TOOL_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-4/_TOOL_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-4/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-4/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-4/_loss": "0.9932297468185425"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_32_1e-4/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_CREATIVE_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_CREATIVE_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_TOOL_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_TOOL_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_loss": "0.872299313545227"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_CREATIVE_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_CREATIVE_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_TOOL_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_TOOL_pm_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_best_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_em_p/r/f1": "0 / 0 / 0"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_loss": "0.872299313545227"}
+{"./out/multimodal/both/late_fusion_slowfast/roberta-base_16_5e-5/_pm_p/r/f1": "0 / 0 / 0"}

@@ -1,18 +1,4 @@
 # coding=utf-8
-# Copyright 2018 The Google AI Language Team Authors and The HuggingFace Inc. team.
-# Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 
 import logging
 import numpy as np
@@ -86,6 +72,7 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, best, mode, pre
                 out_id_list[i].append(out_label_ids[i][j])
                 preds_id_list[i].append(preds[i][j])
 
+    print(preds_id_list)
     correct_preds, correct_pred_pm, total_correct, total_preds = 0., 0., 0., 0.  # i variables
     stats_by_class = defaultdict(lambda: defaultdict(lambda: 0.))
     for ground_truth_id, predicted_id in zip(out_id_list, preds_id_list):
@@ -120,6 +107,11 @@ def evaluate(args, model, tokenizer, labels, pad_token_label_id, best, mode, pre
             for chunk_type in stats_by_class.keys():
                 stats_by_class[chunk_type]["correct_pred_pm"] += len(set([c for c in lab_chunks if c[0] == chunk_type]) &
                                                                set([c for c in lab_pred_chunks if c[0] == chunk_type]))
+
+    print("correct")
+    print(correct_preds)
+    print("total")
+    print(total_preds)
 
     p = correct_preds / total_preds if correct_preds > 0 else 0
     r = correct_preds / total_correct if correct_preds > 0 else 0

@@ -27,7 +27,7 @@ echo "Run on GPU $GPUID"
 # data
 # PROJECT_ROOT=$(dirname "$(readlink -f "$0")")/..
 PROJECT_ROOT=.
-DATA_ROOT=$PROJECT_ROOT/data/intent/both
+DATA_ROOT=$PROJECT_ROOT/data/bid/
 OUTPUT_ROOT=./out/multimodal/both
 
 export PYTHONPATH=$PYTHONPATH:/ssd-playpen1/adyasha/projects/Behance/
